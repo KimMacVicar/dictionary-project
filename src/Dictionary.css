@@ -1,3 +1,24 @@
 .Dictionary {
   text-align: left;
 }
+.btn-border {
+  margin-top: 0px;
+}
+.btn {
+  background-color: rgb(186, 183, 187) !important;
+  border: 1px solid rgb(186, 183, 187);
+  text-align: center;
+  width: 200px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.btn:hover {
+  background-color: #9d9ea0 !important;
+  border: 1px solid #9d9ea0;
+}
+.search {
+  margin-right: 300px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 600px;
+}
