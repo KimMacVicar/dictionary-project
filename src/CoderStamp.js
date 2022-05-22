@@ -11,13 +11,14 @@ export default function CoderStamp() {
         target="_blank"
         rel="noreferrer"
       >
+        {" "}
         open-sourced on GitHub
       </a>{" "}
       and{" "}
       <a
         className="link"
         href="https://elegant-crisp-fa71cf.netlify.app"
-        target="_blank"
+        target="blank"
         rel="noreferrer"
       >
         {" "}
