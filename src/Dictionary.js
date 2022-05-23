@@ -29,6 +29,7 @@ export default function Dictionary() {
           <div className="col-9">
             <form onSubmit={search}>
               <input
+                onFocus="clearDefault(this)"
                 className="search"
                 type="search"
                 onChange={handleKeyWordChange}
@@ -37,7 +38,12 @@ export default function Dictionary() {
             </form>
           </div>
           <div className="col-3 btn-border">
-            <input className="btn btn-primary " type="submit" value="search" />
+            <input
+              className="btn btn-primary "
+              type="submit"
+              value="search"
+              onFocus="clearDefault(this)"
+            />
           </div>
         </div>
         <Results results={results} />
