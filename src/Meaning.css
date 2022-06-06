@@ -14,3 +14,14 @@ h5 {
 strong {
   font-size: 18px;
 }
+.Meaning .example {
+  color: #000000;
+  opacity: 70%;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.Meaning .synonyms {
+  color: #000000;
+  opacity: 70%;
+  font-weight: lighter;
+}
