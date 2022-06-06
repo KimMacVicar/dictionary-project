@@ -12,7 +12,7 @@ function App() {
         <h1>Dictionary</h1>
         <h3>What word would you like to look up?</h3>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
       </div>
       <CoderStamp />
